@@ -1,0 +1,29 @@
+{
+    "name": "ohlandt/bolt-installer",
+    "description": "Bolt.cm installer.",
+    "keywords": ["bolt"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Phillipp Ohlandt",
+            "email": "phillipp.ohlandt@googlemail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Installer\\Console\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~4.0|~5.0",
+        "symfony/console": "~2.3",
+        "symfony/process": "~2.3"
+    },
+    "bin": [
+        "bolt"
+    ]
+}
